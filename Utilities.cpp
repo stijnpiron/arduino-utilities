@@ -7,7 +7,7 @@
  */
 boolean checkColorValue(int value)
 {
-  return checkNumberPositive(value) 0 && value <= 255;
+  return checkNumberPositive(value) && value <= 255;
 }
 
 /**
